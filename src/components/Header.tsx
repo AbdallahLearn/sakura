@@ -23,7 +23,7 @@ function Header() {
               </svg>
             </div>
             <div className="navbar-center  hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-10 text-xl  ">
+          <ul className="menu menu-horizontal px-1 gap-2 text-xl  ">
             <li>
               <a className="font-bold">المميزات</a>
             </li>
