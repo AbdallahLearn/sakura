@@ -21,7 +21,9 @@ function App() {
     }}
     
   >
+     
         <Header />
+       
         <div className="container m-auto max-sm:w-[80%] ">
           <div className="mt-40 gap-10 p-6 sm:w-full md:w-3/4 lg:w-2/3 xl:w-1/2 text-black rounded-lg flex flex-col items-start space-y-6 max-md:mt-20 ">
             <h1 className="text-9xl font-bold text-end max-md:text-7xl">ساكورا</h1>
@@ -63,7 +65,7 @@ function App() {
         style={{ backgroundImage: "url(https://s3-alpha-sig.figma.com/img/37cc/a05e/82fcddd75355e1c3366841b8b7af8df8?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DkBSS73Cq8QWylhRUtQqBu57FTPmiJSwVZQ6TCo984HG8DKbGiOMlJKxU6r7ll~mc8qQCrEhWT98XnULwqZB1olWckJiaFFwJ4M78GTca5lOMoGjBMd5fqDybUwqoyBSqiSiYymYZ2PsIiTNOOz84JL5JEvANt73gWlDwrgRSTSl9AlBfENle44iBHNtQ47IpnpTXU6srb9-qEZOnahbmH2RlhZb7Xvz~95kI87uPRwPmannM0KAX-Pb9ON3rvYtfMysMTYdo1~~B08lz2F62bxR2QLLivPXgqDtlfzbiV3BaXn5vzdOy2iKyK2joypbBTy6-0jJmZInoyxFmZnFDw__)", opacity: "80%" }}
       >
         <div className="container m-auto z-20   h-screen flex flex-col justify-center items-start max-sm:w-[80%] ">
-          <h1 className="text-8xl max-md:text-6xl text-right w-full max-md:w-60 text-white ">
+          <h1 className="text-8xl max-md:text-5xl text-right w-full max-md:w-60 text-white ">
             ما الذي <span className="font-bold">نقدمة</span>؟
           </h1>
           <div className="card grid w-full justify-center grid-cols-3 gap-1 max-md:flex max-md:flex-col-reverse ">

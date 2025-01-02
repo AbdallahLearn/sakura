@@ -2,7 +2,7 @@
 function Header() {
   return (
     <>
-     <div className="container m-auto pt-10">
+     <div className="container m-auto pt-10 ">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
